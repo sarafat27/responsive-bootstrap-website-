@@ -24,8 +24,8 @@
     <header>
         <!-- Navbar -->
         <section class="container">
-            <div class="d-flex justify-content-between py-4">
-                <h4>International convention center</h4>
+            <div class="d-flex justify-content-between my-4">
+                <h4 class="fw-bold">International convention center</h4>
                 <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -43,7 +43,7 @@
             </div>
         </section>
         <!-- carousel starts -->
-        <section class="container mb-5">
+        <section class="mb-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -57,10 +57,10 @@
                     <div class="carousel-item active">
                         <img src="images/banner.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h5>The perfect venue for your
+                            <h4>The perfect venue for your
 
-                                next event</h5>
-                            <p><small>Amet minim mollit non deserunt ullamco est sit aliqua
+                                next event</h4>
+                            <p class="mb-1"><small>Amet minim mollit non deserunt ullamco est sit aliqua
                                 </small></p>
                             <a href="https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en&gl=US"
                                 class="btn btn-dark text-white px-4 py-2">Book Now</a>
@@ -106,7 +106,7 @@
     </header>
     <main>
         <!-- Our package part -->
-        <h2 class="text-center fw-bold">Our package </h2>
+        <h2 class="text-center fw-bold py-5">Our package </h2>
         <section class="container my-5 px-5">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
                 <div class="col">
@@ -155,15 +155,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col bg-dark py-4 rounded-3">
+                <div class="col bg-dark py-4 rounded-3 position-relative">
                     <div class="h-100">
                         <div class="card-body">
+                            <span class="badge position-absolute bottom-100 end-0 bg-danger rounded-pill">Hot</span>
                             <h3 class="card-title fw-bold text-white">$300</h3>
                             <h3 class="mt-3 fw-bold text-white">Business fair</h3>
-                            <p class="card-text text-muted"><small>For most businesses event like book fair, craft
+                            <p class="card-text text-white"><small>For most businesses event like book fair,
+                                    craft
                                     fair.</small>
                             </p>
-                            <p class="text-muted">
+                            <p class="text-white">
                                 <i class="far fa-check-circle text-primary"></i> limited space access <br>
                                 <i class="far fa-check-circle text-primary"></i> Security facility <br>
                                 <i class="far fa-check-circle text-primary"></i> event support <br>
@@ -204,8 +206,108 @@
 
             </div>
         </section>
+        <!-- Frequently asked question -->
+        <h2 class="text-center fw-bold py-5">Frequently Asked Questions </h2>
+        <section class="container my-5  h-100 pb-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-dark fw-bold bg-light" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    What's the difference between event design and
+                                    event planning?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a
+                                    successful event.Events by Knight offer tailor made events. This
+                                    means we incorporate both event design and event planning to
+                                    create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button text-dark fw-bold bg-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    How early do we need to start planning an event?
+
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a
+                                    successful event.Events by Knight offer tailor made events. This
+                                    means we incorporate both event design and event planning to
+                                    create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed text-dark fw-bold bg-light" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    What is your refund and cancellation policy?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a
+                                    successful event.Events by Knight offer tailor made events. This
+                                    means we incorporate both event design and event planning to
+                                    create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed text-dark fw-bold bg-light" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    How do you keep budgets on track?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a
+                                    successful event.Events by Knight offer tailor made events. This
+                                    means we incorporate both event design and event planning to
+                                    create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" width="546px" height="364px" src="images/people.png" alt="">
+                </div>
+            </div>
+
+        </section>
     </main>
-    <footer>
+    <footer class="bg-dark d-flex align-items-center justify-content-around py-5">
+        <div>
+            <p class="text-white"><small>© 2020 bike. All rights reserved</small>
+            </p>
+        </div>
+        <div>
+            <h6 class="text-white">Get the app</h6>
+            <a href="https://www.apple.com/app-store/"><img class="mb-2" width="135px" height="40px"
+                    src="images/apple.png" alt=""></a><br>
+
+            <a href="https://play.google.com/store/apps"><img width="160px" height="50px" src="images/google.png"
+                    alt=""></a>
+        </div>
 
     </footer>
 
